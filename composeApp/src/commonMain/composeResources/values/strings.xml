@@ -1,0 +1,8 @@
+<resources>
+    <string name="button_next_question">Next Question</string>
+    <string name="button_show_answer">Show Answer</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_retry">Retry</string>
+    <string name="error_too_many_requests">You may only fetch a question every 5 seconds. Wait and try again.</string>
+    <string name="error_generic">Something went wrong. Please try again</string>
+</resources>

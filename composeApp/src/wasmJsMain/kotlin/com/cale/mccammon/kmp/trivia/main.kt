@@ -1,0 +1,13 @@
+package com.cale.mccammon.kmp.trivia
+
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.window.ComposeViewport
+import com.cale.mccammon.kmp.trivia.presentation.App
+import kotlinx.browser.document
+
+@OptIn(ExperimentalComposeUiApi::class)
+fun main() {
+    ComposeViewport(document.body!!) {
+        App()
+    }
+}
