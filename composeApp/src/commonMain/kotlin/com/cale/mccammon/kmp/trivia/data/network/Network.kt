@@ -30,6 +30,9 @@ class Network {
         }
     }
 
+    /**
+     * Perform a generic GET call
+     */
     suspend inline fun <reified T> get(
         endpoint: String,
         headers: Map<String, String>,

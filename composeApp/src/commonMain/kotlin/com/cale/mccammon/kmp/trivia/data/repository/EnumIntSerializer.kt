@@ -7,6 +7,9 @@ import kotlinx.serialization.descriptors.SerialDescriptor
 import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
 
+/**
+ * Serializer for Enums with of non-strings
+ */
 open class EnumIntSerializer<T:Enum<*>>(
     serialName: String,
     val serialize: (v: T) -> Int,

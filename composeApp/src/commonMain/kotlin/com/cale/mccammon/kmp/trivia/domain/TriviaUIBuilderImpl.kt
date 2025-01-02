@@ -1,6 +1,6 @@
 package com.cale.mccammon.kmp.trivia.domain
 
-import com.cale.mccammon.kmp.trivia.data.network.TooManyRequestsException
+import com.cale.mccammon.kmp.trivia.data.repository.TooManyRequestsException
 import com.cale.mccammon.kmp.trivia.domain.model.QuestionUI
 import com.cale.mccammon.kmp.trivia.data.repository.model.Question
 import com.cale.mccammon.kmp.trivia.domain.model.AnswerUI
