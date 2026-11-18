@@ -6,4 +6,4 @@ It demonstrates KMP basics using a trivia game:
 - Shared UI, business logic, and view models
 - Paired down MVI pattern
 
-THe public API used can be found here: https://opentdb.com/api_config.php
+The public API used can be found here: https://opentdb.com/api_config.php
